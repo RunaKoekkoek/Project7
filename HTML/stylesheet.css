@@ -113,7 +113,7 @@ h1 {
     padding: 15px 15px 15px 15px;
 
     background-color:grey;
-    width: 750px;
+    width: 850px;
     text-align: center;
     font-size: 30px;
 }
@@ -186,4 +186,11 @@ a:hover {
 
 .sleep:hover{
     background-color: rgba(256,256,256,.5);
+}
+
+.page-wrap{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    
 }
