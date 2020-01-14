@@ -8,18 +8,18 @@ body {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 90px;
+    font-size: 100px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 
     position: absolute;
-    left: 140px;
-    bottom: 375px;
-    
+    left:   40px;
+    bottom: 650px;
+
 }
 
 .scene {
-    background-image: url("test1.png");
+    background-image: url("start.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-size:contain; 
@@ -30,7 +30,7 @@ h1 {
 }
 
 .scene1 {
-    background: url("test2.png") no-repeat;
+    background: url("scene1.png") no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-size:contain; 
@@ -38,29 +38,96 @@ h1 {
     height: 100%;
     width:  100%;
 
+}
 
+.sceneignore {
+    background: url("sceneignore.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.scenepush {
+    background: url("scenepush.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.scenesleep {
+    background: url("scenesleep.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
 }
 
 .situation {
     position: absolute;
-    top: 310px;
+    top:  310px;
     left: 30px;
-    padding: 15px 15 px 15 px;
+    padding: 15px 15px 15px;
 
     background-color: red;
-    width: 750px;
+    width: 600px;
     text-align: center;
+    font-size: 60px;
 }
 
 .situation2 {
     position: absolute;
-    top: 310px;
+    top: 610px;
     left: 30px;
-    padding: 15px 15 px 15 px;
+    padding: 15px 15px 15px 15px;
 
     background-color:grey;
     width: 750px;
     text-align: center;
+    font-size: 30px;
+}
+
+.situation3 {
+    position: absolute;
+    top: 610px;
+    left: 30px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation4 {
+    position: absolute;
+    top: 610px;
+    left: 30px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation5 {
+    position: absolute;
+    top: 610px;
+    left: 30px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
 }
 
 a {
@@ -72,3 +139,51 @@ a:hover {
     text-decoration: underline;
 }
 
+.push {
+    position: absolute;
+    left: 900px;
+    top: 280px;
+
+    width:  100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.ignore {
+    position: absolute;
+    left: 350px;
+    top: 480px;
+
+    width:  100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.sleep {
+    position: absolute;
+    left: 1500px;
+    top: 680px;
+
+    width:  100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.push:hover {
+
+    background-color: rgba(256,256,256,.5);
+}
+
+.ignore:hover{
+    background-color: rgba(256,256,256,.5);
+}
+
+.sleep:hover{
+    background-color: rgba(256,256,256,.5);
+}
