@@ -6,17 +6,6 @@ body {
     font-family: Tahoma;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100px;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-
-    position: absolute;
-    left:   40px;
-    bottom: 650px;
-
-}
 
 .scene {
     background-image: url("start.png");
@@ -60,6 +49,56 @@ h1 {
     width:  100%;
 }
 
+.scenepush2 {
+    background: url("scenepush2.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.scenepush3 {
+    background: url("scenepush3.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.scenepush4 {
+    background: url("scenepush4.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.scenepush5 {
+    background: url("scenepush5.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.ending2 {
+    background: url("ending2.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
 .scenesleep {
     background: url("scenesleep.png") no-repeat;
     background-size: cover;
@@ -70,6 +109,27 @@ h1 {
     width:  100%;
 }
 
+.scenesleep2 {
+    background: url("scenesleep2.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.ending1 {
+    background: url("ending1.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+
 .situation {
     position: absolute;
     top:  310px;
@@ -79,7 +139,7 @@ h1 {
     background-color: red;
     width: 600px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .situation2 {
@@ -130,6 +190,90 @@ h1 {
     font-size: 30px;
 }
 
+.situation6 {
+    position: absolute;
+    top: 610px;
+    left: 30px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation7 {
+    position: absolute;
+    top: 610px;
+    left: 550px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:darkcyan;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation8 {
+    position: absolute;
+    top: 610px;
+    left: 550px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation9 {
+    position: absolute;
+    top: 610px;
+    left: 550px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation10 {
+    position: absolute;
+    top: 610px;
+    left: 550px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation11 {
+    position: absolute;
+    top: 610px;
+    left: 550px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:grey;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.situation12 {
+    position: absolute;
+    top: 610px;
+    left: 500px;
+    padding: 15px 15px 15px 15px;
+
+    background-color:darkcyan;
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+}
+
 a {
     color:black;
     text-decoration: none;
@@ -175,6 +319,30 @@ a:hover {
     font-size: 30px;
 }
 
+.sleep2 {
+    position: absolute;
+    left: 1500px;
+    top: 680px;
+
+    width:  200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.push3 {
+    position: absolute;
+    left: 1500px;
+    top: 680px;
+
+    width:  200px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
 .push:hover {
 
     background-color: rgba(256,256,256,.5);
@@ -186,4 +354,16 @@ a:hover {
 
 .sleep:hover{
     background-color: rgba(256,256,256,.5);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    position: absolute;
+    left:   40px;
+    bottom: 650px;
+
 }
