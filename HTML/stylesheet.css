@@ -187,9 +187,3 @@ a:hover {
 .sleep:hover{
     background-color: rgba(256,256,256,.5);
 }
-
-@media (min-width: 600px) {
-  h1 {
-      font-size: 1.25rem;
-  }
-}
