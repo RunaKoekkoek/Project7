@@ -1,3 +1,9 @@
+/* 
+  ==========================CSS Stylesheet============================
+   Author: Runa Koekkoek, Kevin Schlangen
+   Date of creation: 10-01-2020
+   Last change: 16-01-2020
+*/
 
 body {
     font-size: 20pp;
@@ -8,279 +14,264 @@ body {
 
 
 .scene {
-    background-image: url("start.png");
+    background-image: url("start.png"); 			/* Background image. */
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
-
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scene1 {
-    background: url("scene1.png") no-repeat;
+    background: url("scene1.png") no-repeat;		/* Set background image to no repeat.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
-
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .sceneignore {
-    background: url("sceneignore.png") no-repeat;
+    background: url("sceneignore.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenepush {
-    background: url("scenepush.png") no-repeat;
+    background: url("scenepush.png") no-repeat;		/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenepush2 {
-    background: url("scenepush2.png") no-repeat;
+    background: url("scenepush2.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenepush3 {
-    background: url("scenepush3.png") no-repeat;
+    background: url("scenepush3.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;
-    height: 100%;
-    width:  100%;
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenepush4 {
-    background: url("scenepush4.png") no-repeat;
+    background: url("scenepush4.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenepush5 {
-    background: url("scenepush5.png") no-repeat;
+    background: url("scenepush5.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;
-    height: 100%;
-    width:  100%;
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .ending2 {
-    background: url("ending2.png") no-repeat;
+    background: url("ending2.png") no-repeat;		/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenesleep {
-    background: url("scenesleep.png") no-repeat;
+    background: url("scenesleep.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .scenesleep2 {
-    background: url("scenesleep2.png") no-repeat;
+    background: url("scenesleep2.png") no-repeat;	/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
 .ending1 {
-    background: url("ending1.png") no-repeat;
+    background: url("ending1.png") no-repeat;		/* Background image.*/
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
-    position: absolute;
-    height: 100%;
-    width:  100%;
+    position: absolute;								/* Positioning.*/
+    height: 100%;									/* Set height to 100%.*/
+    width:  100%;									/* Set width to 100%.*/
 }
 
-
 .situation {
-    position: absolute;
-    top:  310px;
-    left: 10px;
-    padding: 15px 15px 15px;
-
-    background-color: red;
-    width: 600px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top:  310px;					/* Define top pixels.*/
+    left: 10px;						/* Define left pixels.*/
+    padding: 15px 15px 15px;		/* Padding.*/
+    background-color: red;			/* Make the background color red.*/
+    width: 600px;					/* Set width to 600 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation2 {
-    position: absolute;
-    top: 610px;
-    left: 30px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 30px;						/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation3 {
-    position: absolute;
-    top: 610px;
-    left: 30px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 30px;						/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation4 {
-    position: absolute;
-    top: 610px;
-    left: 30px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 850px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 30px;						/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 850px;					/* Set width to 850 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation5 {
-    position: absolute;
-    top: 610px;
-    left: 30px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 30px;						/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation6 {
-    position: absolute;
-    top: 610px;
-    left: 30px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 30px;						/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation7 {
-    position: absolute;
-    top: 610px;
-    left: 420px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:darkcyan;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 420px;					/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:darkcyan;		/* Make the background color dark cyan.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation8 {
-    position: absolute;
-    top: 610px;
-    left: 350px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 350px;					/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation9 {
     position: absolute;
-    top: 510px;
-    left: 350px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    top: 510px;						/* Define top pixels.*/
+    left: 350px;					/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation10 {
-    position: absolute;
-    top: 510px;
-    left: 350px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 510px;						/* Define top pixels.*/
+    left: 350px;					/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 .situation11 {
-    position: absolute;
-    top: 610px;
-    left: 400px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:grey;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+    position: absolute;				/* Positioning.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 400px;					/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:grey;			/* Make the background color grey.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
-.situation12 {
-    position: absolute;
-    top: 610px;
-    left: 350px;
-    padding: 15px 15px 15px 15px;
-
-    background-color:darkcyan;
-    width: 750px;
-    text-align: center;
-    font-size: 30px;
+.situation12 {						/* Positioning.*/
+    position: absolute;				/* Define top pixels.*/
+    top: 610px;						/* Define top pixels.*/
+    left: 350px;					/* Define left pixels.*/
+    padding: 15px 15px 15px 15px;	/* Padding.*/
+    background-color:darkcyan;		/* Make the background color dark cyan.*/
+    width: 750px;					/* Set width to 750 pixels.*/
+    text-align: center;				/* Make the text go to the center.*/
+    font-size: 30px;				/* Overall font 30 pixels.*/
 }
 
 a {
-    color:black;
-    text-decoration: none;
+    color:black;					/* Set color to black.*/
+    text-decoration: none;			/* Add decoration.*/
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline;		/* Set an color when hovering.*/
 }
 
 .push {
@@ -290,9 +281,9 @@ a:hover {
 
     width:  100px;
     height: 50px;
-    text-align: center;
-    color: white;
-    font-size: 30px;
+    text-align: center;				/* Make the text go to the center.*/
+    color: white;					/* Make the color white.*/
+    font-size: 30px;				/* Make the font size 30 pixels.*/
 }
 
 .ignore {
@@ -323,7 +314,6 @@ a:hover {
     position: absolute;
     left: 1500px;
     top: 680px;
-
     width:  200px;
     height: 50px;
     text-align: center;
@@ -335,7 +325,6 @@ a:hover {
     position: absolute;
     left: 1300px;
     top: 580px;
-
     width:  200px;
     height: 50px;
     text-align: center;
@@ -344,16 +333,15 @@ a:hover {
 }
 
 .push:hover {
-
-    background-color: rgba(256,256,256,.5);
+    background-color: rgba(256,256,256,.5);		/* Background color.*/
 }
 
 .ignore:hover{
-    background-color: rgba(256,256,256,.5);
+    background-color: rgba(256,256,256,.5);		/* Background color.*/
 }
 
 .sleep:hover{
-    background-color: rgba(256,256,256,.5);
+    background-color: rgba(256,256,256,.5);		/* Background color.*/
 }
 
 h1 {
@@ -362,7 +350,6 @@ h1 {
     position: absolute;
     left:   200px;
     bottom: 550px;
-
 }
 
 @media screen and (max-width: 959px){
@@ -375,5 +362,4 @@ h1 {
     #right-column{
         width:30%;
     }
-
 }
