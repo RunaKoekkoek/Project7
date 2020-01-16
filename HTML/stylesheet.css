@@ -276,11 +276,11 @@ a:hover {
 
 .push {
     position: absolute;
-    left: 50%;
-    top: 15%;
+    left: 45%;
+    top: 30%;
 
-    width:  100px;
-    height: 50px;
+    width:  10%;
+    height: 5%;
     text-align: center;				/* Make the text go to the center.*/
     color: white;					/* Make the color white.*/
     font-size: 30px;				/* Make the font size 30 pixels.*/
@@ -288,11 +288,11 @@ a:hover {
 
 .ignore {
     position: absolute;
-    left: 50%;
+    left: 15%;
     top: 50%;
 
-    width:  100px;
-    height: 50px;
+    width:  10%;
+    height: 5%;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -303,8 +303,8 @@ a:hover {
     left: 15%;
     top: 20%;
 
-    width:  100px;
-    height: 50px;
+    width:  10%;
+    height: 5%;
     text-align: center;
     color: white;
     font-size: 30px;
