@@ -10,7 +10,7 @@ body {
     background-color: black;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: ;
+    
 
 }
 
@@ -155,6 +155,7 @@ body {
     width: 750px;					/* Set width to 750 pixels.*/
     text-align: center;				/* Make the text go to the center.*/
     font-size: 30px;				/* Overall font 30 pixels.*/
+    
 }
 
 .situation3 {
