@@ -6,10 +6,10 @@
 */
 
 body {
-    font-size: 20pp;
-    background-color: black;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pp;                                              /* Font size*/
+    background-color: black;                                    /* Background color*/
+    color: black;                                               /* Color of the body text*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;             /* Font of the text on the page*/
     
 
 }
@@ -17,7 +17,7 @@ body {
 
 .scene {
     background-image: url("start.png"); 			/* Background image. */
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -27,7 +27,7 @@ body {
 
 .scene1 {
     background: url("scene1.png") no-repeat;		/* Set background image to no repeat.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -37,7 +37,7 @@ body {
 
 .sceneignore {
     background: url("sceneignore.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -47,7 +47,7 @@ body {
 
 .scenepush {
     background: url("scenepush.png") no-repeat;		/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -57,7 +57,7 @@ body {
 
 .scenepush2 {
     background: url("scenepush2.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -67,7 +67,7 @@ body {
 
 .scenepush3 {
     background: url("scenepush3.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;
@@ -77,7 +77,7 @@ body {
 
 .scenepush4 {
     background: url("scenepush4.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -87,7 +87,7 @@ body {
 
 .scenepush5 {
     background: url("scenepush5.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;
@@ -97,7 +97,7 @@ body {
 
 .ending2 {
     background: url("ending2.png") no-repeat;		/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -107,7 +107,7 @@ body {
 
 .scenesleep {
     background: url("scenesleep.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -117,7 +117,7 @@ body {
 
 .scenesleep2 {
     background: url("scenesleep2.png") no-repeat;	/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -127,7 +127,7 @@ body {
 
 .ending1 {
     background: url("ending1.png") no-repeat;		/* Background image.*/
-    background-size: cover;
+    background-size: cover;                         /* this will cover the picture at the background */
     background-repeat: no-repeat;					/* Set to no repeat.*/
     background-size:contain; 
     position: absolute;								/* Positioning.*/
@@ -279,11 +279,11 @@ a:hover {
 
 .push {
     position: absolute;
-    left: 45%;
-    top: 30%;
+    left: 45%;                      /*will align 45% left*/
+    top: 30%;                       /*will align 30% top*/
 
-    width:  10%;
-    height: 5%;
+    width:  10%;                    /*will width 10%*/
+    height: 5%;                     /*will align height 5%*/
     text-align: center;				/* Make the text go to the center.*/
     color: white;					/* Make the color white.*/
     font-size: 30px;				/* Make the font size 30 pixels.*/
